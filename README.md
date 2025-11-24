@@ -1,25 +1,70 @@
-# JalQuest
-JalQuest – Gamified Water Conservation Platform JalQuest is a hackathon-winning, full-stack web application designed to promote water conservation through gamification. Users complete daily water-saving tasks, earn Boonds points, compete on leaderboards, and redeem rewards—all while contributing to environmental sustainability.
-PROTOTYPE IS LIVE ON -> JALQUEST.NETLIFY.APP
+# Getting Started with Create React App
 
-🚀 Features 📅 Daily Tasks: Fun, actionable water-saving activities.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-💧 Boonds Point System: Earn points for each completed task.
+## Available Scripts
 
-🏆 Leaderboards: Global and friends-based rankings in real time.
+In the project directory, you can run:
 
-🎁 Redeem Section: Exchange points for rewards and goodies.
+### `npm start`
 
-📸 Camera-Based Verification: Before-and-after photo proof to prevent cheating.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-🔒 Secure Authentication: Safe user login and session management.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-🛠️ Tech Stack Frontend: React.js
+### `npm test`
 
-HTML5, CSS3, JavaScript
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Backend: Java (Spring Boot)
+### `npm run build`
 
-Hibernate ORM
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-MySQL
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

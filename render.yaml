@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: jalquest-backend
+    env: java
+    plan: free
+    repo: https://github.com/devanshonly/JalQuest
+    branch: main
+    rootDir: Backend/Jalquest
+    buildCommand: "./mvnw clean install"
+    startCommand: "./mvnw spring-boot:run"
+    autoDeploy: true
+    region: oregon

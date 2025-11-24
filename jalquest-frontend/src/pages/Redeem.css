@@ -1,0 +1,54 @@
+.redeem-container {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+}
+
+.boonds-balance {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.reward-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reward-card {
+  background-color: #fff;
+  padding: 20px;
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.reward-card h3 {
+  margin-bottom: 10px;
+  color: #0077b6;
+}
+
+.reward-card p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.reward-card button {
+  padding: 8px 16px;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.reward-card button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

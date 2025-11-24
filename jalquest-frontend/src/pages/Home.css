@@ -1,0 +1,124 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 20px;
+    padding-bottom: 80px; /* added to prevent content behind fixed footer */
+  }
+  
+  .home-header {
+    margin-top: 50px;
+  }
+  
+  .home-header h1 {
+    font-size: 2.5rem;
+    color: #0077b6;
+  }
+  
+  .home-header p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .task-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: white;
+    background-color: #0077b6;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .task-button:hover {
+    background-color: #005f8d;
+  }
+  
+  .badge {
+    background-color: #c9b037; /* muted gold */
+    color: white;
+    font-size: 0.8em;
+    font-weight: 500;
+    padding: 3px 8px;
+    border-radius: 10px;
+    margin-left: 0;
+    vertical-align: middle;
+    border: 1px solid #bfae56;
+    box-shadow: 0 0 5px rgba(201, 176, 55, 0.4);
+    font-family: 'Georgia', serif;
+  }
+
+  .hackathon-project-label {
+    font-size: 0.75rem;
+    color: #ffffffcc;
+    margin-top: 4px;
+    user-select: none;
+    font-style: italic;
+  }
+
+  .tech-stack-scroll-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    height: 100px;
+    background-color: #e0f7fa;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 0 10px;
+    box-sizing: border-box;
+  }
+
+  .tech-stack-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #0077b6;
+    margin-bottom: 8px;
+    user-select: none;
+  }
+
+  .tech-stack-scroll {
+    display: flex;
+    gap: 40px;
+    animation: scroll-left 20s linear infinite;
+    align-items: center;
+    width: max-content;
+  }
+
+  .tech-stack-scroll img {
+    height: 50px;
+    width: auto;
+    user-select: none;
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Responsive styles for smartphones */
+  @media (max-width: 600px) {
+    .home-header h1 {
+      font-size: 1.8rem;
+    }
+
+    .home-container {
+      padding-bottom: 100px; /* increase padding to avoid overlap with footer */
+      overflow-x: hidden;
+    }
+  }
